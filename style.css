@@ -1,0 +1,146 @@
+@font-face {
+    font-family: SfProBlack;
+    src: url("./Font/SF-Pro-Display-Black.otf");
+}
+
+@font-face {
+    font-family: SfProMedium;
+    src: url("./Font/SF-Pro-Display-Medium.otf");
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+#page{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+#page nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 3vw;
+    height: 7vh;
+    width: 50vw;
+    top: 0;
+    left: 50%;
+    /* background-color: rgb(133, 133, 133); */
+    transform: translateX(-50%);
+}
+
+#page nav h2{
+    font-family: "SfProMedium";
+    color: #fff;
+}
+
+#page video{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#page-bottom{
+    height: 20%;
+    width: 35%;
+    position: absolute;
+    /* background-color: antiquewhite; */
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page-bottom h3{
+    font-family: "SfProMedium";
+    font-size: large;
+    
+}
+
+#page-bottom h2{
+    font-family: "SfProMedium";
+    font-size: 5vw;
+    display: flex;
+    align-items: center;
+
+}
+
+#page-bottom img{
+    height: 5vw;
+    height: 5vw;  
+}
+
+#page nav button{
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+
+/* Page1 */
+#page1{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(14, 56, 42); */
+}
+
+
+#page1>video{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page1>h1{
+    position: absolute;
+    font-size: 4vw;
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20%;
+    color: white;
+}
+
+#page2>video{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page2>h1{
+    position: absolute;
+    font-size: 4vw;
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20%;
+    color: white;
+}
